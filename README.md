@@ -44,3 +44,5 @@ $ ffmpeg -y -framerate 60 -pattern_type glob -i '*.png' -c:v libx264 -crf 18 -pi
 
 Currently, the ray tracer in this project is quite minimal. It doesn't
 support reflections, etc. This project is mostly a proof-of-concept.
+
+Thank you
