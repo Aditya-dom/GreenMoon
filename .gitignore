@@ -1,0 +1,17 @@
+/*
+This system finds all named entities that have an
+image component and writes the image to a file.
+The name of the file is based on the name of the
+entity.
+
+Image pixels are Vector3<f64>, so we need to clamp
+and normalise these pixels to write them to an
+8-bit per channel png.
+
+Currently, there’s no restriction that only images
+from cameras are written.
+*/
+
+/target
+**/*.rs.bk
+*.png
